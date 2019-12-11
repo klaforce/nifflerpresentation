@@ -31,6 +31,8 @@ The `BinarySpaceStrategy` is the primary strategy used for Niffler. The algorith
 4. After collecting `IDEAL_CAPACITY` the `Ship` will return to the `Shipyard` or `Dropoff`.
 5. The BSP will be recreated every `TURNS_TO_RECREATE` and the algorithm will retune itself.
 
+[Binary Space Partition](BSP.md)
+
 ```javascript
 const BlockTree = require("../bsp/blocktree");
 const ShipOrchestration = require("./shipOrchestration");
@@ -61,3 +63,5 @@ class BinarySpaceBotStrategy {
 }
 module.exports = BinarySpaceBotStrategy;
 ```
+
+[Greedy Orchestration](Orchestrator.md)

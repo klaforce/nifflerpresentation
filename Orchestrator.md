@@ -2,6 +2,8 @@
 
 The `BinarySpaceBotStrategy` strategy utilizes the `ShipOrchestrator` class to select the next set of moves for the ship. The `ShipOrchestrator utilizes a greedy algorithm to select the node for the ship to move to next.
 
+`ShipOrchestrator`
+
 ```javascript
 const hlt = require("../../hlt");
 
@@ -58,6 +60,8 @@ class ShipOrchestration {
 module.exports = ShipOrchestration;
 ```
 
+`Block`
+
 ```javascript
 class Block {
     constructor(map, level, config) {
@@ -94,3 +98,5 @@ class Block {
 }
 module.exports = Block;
 ```
+
+[Genetic Algorithm](GeneticAlgorithm.md)
