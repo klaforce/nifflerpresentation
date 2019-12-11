@@ -1,0 +1,21 @@
+{
+    "workbench.colorCustomizations": {
+        "editorCursor.background": "#ccc",
+        "editorCursor.foreground": "#AE81FF",
+        "editor.lineHighlightBackground": "#383830",
+    },
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.visible": false,
+    "explorer.openEditors.visible": 0,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderIndentGuides": false,
+    "editor.fontWeight": "600",
+    "editor.fontSize": 24,
+    "terminal.integrated.fontWeight": "800",
+    "terminal.integrated.fontSize": 28,
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "editor.formatOnSave": false,
+    "markdown.preview.fontSize": 22,
+    "markdown.preview.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+}
